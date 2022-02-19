@@ -3,7 +3,6 @@ RUN apk add --no-cache bash
 USER root
 
 RUN apk update
-
 COPY ./app.js /
 COPY ./package.json /
 
